@@ -18,7 +18,6 @@ pipeline {
             when {
                 anyOf{
                     branch 'main'
-                    brance 'stage'
                     branch 'develop'
                 }
             }
